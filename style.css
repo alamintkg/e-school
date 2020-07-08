@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #F0FFF0;
+}
+.navbar-brand img {
+    width : 200px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 2rem;
+    color: black;
+}
+.navbar-expand-lg .navbar-nav .nav-link .active{
+    color: black;
+    font-size: px;
+}
+.color {
+    background-color: #21B573;
+    padding: 8px 30px;
+    border-radius: 33px;
+    color: #ffffff!important;
+    font-size: 16px;
+    text-align: center!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-color: #F0FFF0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+.banner-content h6 {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FD511A;
+}
+.banner-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
+.banner-content span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #21b572;
+}
+.banner-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #6C6B6B;
+}
+
+.margin{
+    margin-bottom: 90px;
+}
+
+.book{
+    background-color: #e6f5e670;
+    text-align: center;
+    padding: 20px 0;
+
+    transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+}
+.book img{
+    height: 85px;
+    width: 66px;
+}
+.book:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#course .card {
+    border:none;
+    border-radius: 10px;
+    padding: 50px 0px;
+}
+#course h2 {
+    color: #413960;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#course .card {
+    border:none;
+    border-radius: 10px;
+    padding: 30px 10px;
+    box-shadow: 1px 1px 10px gray;
+   
+}
+#course .card-body h5 {
+    color: #413960;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+#course .card-body p {
+    color: #585859;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.card-footer img {
+    width: 35px!important;
+}
+.card-footer span {
+    font-size: 14px;
+}
+#course .card-footer {
+    border: none;
+    background: transparent;
+    text-align: left;
+}
+.card-footer img {
+    width: 35px!important;
+}
+.card-footer span {
+    font-size: 14px;
+}
+
+
+footer {
+    background-color: #282531;
+    color: #ffffff;  
+}
+.footer-top {
+    padding: 50px 0;
+}
+footer ul li{
+    list-style: none;
+}
+footer h5 {
+    font-size:18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+footer p {
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+footer a {
+    text-decoration: none!important;
+    color: #ffffff;
+    font-size: 16px;
+}
+.footer-bottom P {
+    font-size: 16px;
+    color: #CDCDCD;
+    font-family: 'Poppins', sans-serif;
+}
+.pp{
+    margin-bottom: 130px;
+    margin-top: -60px;
+}
+.testimonial{
+    margin-top: 80px;
+}
+#subscribe{
+    height: 300px;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF5898 0%,#FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.containert{
+    margin-bottom: 100px;
+}
+.orange-bg{
+    background-color: #F0FFF0;
+    border-radius: 10px;
+}
+
+
+    @media (max-width:1024px) {
+        .testimonial p {
+            margin-top: 20px;
+        }
+    }
+ @media (max-width:768px) {
+    a.nav-link.color.text-center {
+        display: inline;
+    }
+    #book .card {
+        margin-bottom: 20px;
+    }
+    .testimonial p {
+        margin-top: 10px;
+    }
+}
+@media (max-width:575px) {
+    a.nav-link.color.text-center {
+        display: inline;
+    }
+    
+    .banner-content h1 {
+        font-size: 35px;
+        
+    }
+    .banner-content span {
+        font-size: 35px;
+        
+    }
+    .banner-content-img {
+        margin-top: 50px;
+    }
+    #book .card {
+        margin-bottom: 20px;
+    }
+    #course h2 {
+        text-align: center;
+    }
+    .testimonial .img {
+        text-align: center!important;
+    }
+    .teacher h2 {
+        font-size: 25px;
+    }
+    .teacher1 .card {
+       margin-bottom: 10px;
+    }
+    footer a {
+        font-size: 13px;
+    }
+    .footer-bottom P {
+        font-size: 13px;
+    }
+    
+}
