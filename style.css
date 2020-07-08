@@ -68,8 +68,9 @@ header {
     background-color: #e6f5e670;
     text-align: center;
     padding: 20px 0;
+    margin: -28px;
 
-    transition: all 0.5s ease-in-out;
+    transition: all 0.1s ease-in-out;
     margin-top: 30px;
 }
 .book img{
